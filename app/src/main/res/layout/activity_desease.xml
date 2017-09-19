@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/skyblue"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Desease List"
+        android:id="@+id/textView9"
+        android:background="#51d23d"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"></LinearLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:textColor="#100202"
+        android:dividerHeight="1px"
+        android:layout_marginTop="5px"
+        android:textSize="11dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="318dp">
+    </ListView>
+
+
+    <Button
+
+        android:id="@+id/question"
+        android:layout_marginBottom="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:background="@drawable/green_btn_4"
+        android:text="Questions" />
+
+    <Button
+        android:id="@+id/viwe_consultant"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:textColor="@android:color/white"
+
+        android:textStyle="bold"
+        android:background="@drawable/green_btn_4"
+        android:text="vie consultant"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp" />
+</LinearLayout>

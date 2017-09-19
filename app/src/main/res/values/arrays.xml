@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="age_groups">
+        <item>18-24</item>
+        <item>25-34</item>
+        <item>35-44</item>
+        <item>45-54</item>
+        <item>55-64</item>
+    </string-array>
+     <string-array name="age_groups_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="gender_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="security_questions_1">
+        <item>Where did you first meet your life partner?</item>
+        <item>What is your hometown?</item>
+        <item>What was the make of your first car?</item>
+        <item>What is your mother\'s maiden name?</item>
+    </string-array>
+    <string-array name="security_questions_1_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+</resources>

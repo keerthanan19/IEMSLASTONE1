@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="grey">#777776</color>
+    <color name="buttonGrey">#D0D0D0</color>
+    <color name="skyblue">#fdfefe</color>
+
+
+    <color name="red">#ffff0000</color>
+    <color name="green">#ff00ff00</color>
+    <color name="androidGreen">#a4c639</color>
+    <color name="black">#151414</color>
+    <color name="transparentBlack">#fefefe</color>
+    <color name="white">#ecd734</color>
+    <color name="gray">#808080</color>
+    <color name="darkGray">#3f3d3d</color>
+    <color name="lightGray">#6f6969</color>
+    <color name="TransparentLightGray">#767171</color>
+    <color name="vertlightGray">#F9F9F9</color>
+    <color name="TransparentVertlightGray">#ffffff</color>
+    <color name="medtlightGray">#E9E9E9</color>
+</resources>

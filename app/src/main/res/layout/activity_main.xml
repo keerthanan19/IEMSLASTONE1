@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@color/skyblue"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/btn_symptomChecker"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.20"
+        android:background="@drawable/symptom_btn"
+        android:text="@string/symptomchecker"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/btn_nearbyHospitals"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.20"
+        android:background="@drawable/hospital_btn"
+        android:text="@string/nearbyhospitals"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/btn_emergency"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.20"
+        android:background="@drawable/emergency_btn"
+        android:text="@string/emergency"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/btn_preferences"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.20"
+        android:background="@drawable/preferences_btn"
+        android:text="@string/chat1"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/skyblue"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <ImageButton
+        android:id="@+id/btn_sendSMS"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_weight="0.30"
+        android:background="@null"
+        android:contentDescription="@string/sendsms"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:src="@drawable/sms_btn" />
+
+    <TextView
+        android:id="@+id/txtNearbyHospitalContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="@string/nearesthospitalhotline"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="#010101" />
+
+    <ImageButton
+        android:id="@+id/btn_callHospital"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_weight="0.30"
+        android:background="@null"
+        android:contentDescription="@string/nearesthospitalhotline"
+        android:src="@drawable/phone_btn" />
+
+</LinearLayout>

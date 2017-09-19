@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.hamshi.insertdatatodatabase.Register"
+    android:orientation="vertical"
+    android:background="#a9b6b3">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+
+    android:orientation="vertical"
+    android:background="#a9b6b3"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USER MORE DETAILS"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Disease"
+        android:id="@+id/Disease"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:id="@+id/Age"
+        android:inputType="number"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Current Status"
+        android:id="@+id/Status"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Accident History"
+        android:id="@+id/textView22"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:id="@+id/Aname"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+
+    <EditText
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:hint="Year"
+        android:inputType="number"
+        android:id="@+id/Ayear"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:hint="Type"
+        android:id="@+id/Atype"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:hint="Residual Problem"
+        android:id="@+id/Aproblem"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Surgery History"
+        android:id="@+id/surgery"
+        android:layout_gravity="center_horizontal" />
+    <EditText
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:id="@+id/Sname"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+
+    <EditText
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:hint="Year"
+        android:inputType="number"
+        android:id="@+id/Syear"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:hint="Type"
+        android:id="@+id/Stype"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:hint="Residual Problem"
+        android:id="@+id/Sproblem"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Medication History"
+        android:id="@+id/Medication"
+        android:layout_gravity="center_horizontal" />
+    <EditText
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:hint="Nmae"
+        android:id="@+id/Mname"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:hint="Value"
+        android:id="@+id/Mvalue"
+        android:inputType="number"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="save"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:onClick="userReg"
+        />
+
+
+</LinearLayout>
+</ScrollView>

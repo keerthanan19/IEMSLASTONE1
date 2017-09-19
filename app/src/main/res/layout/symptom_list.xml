@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eefbf9" >
+    
+<LinearLayout
+        android:id="@+id/footer_symptom_list"
+        style="@android:style/ButtonBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="#eefbf9"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_removeall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:background="@drawable/borderless_button"
+            android:text="Remove All" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="#2d5106" />
+
+        <Button
+            android:id="@+id/btn_Cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:background="@drawable/borderless_button"
+            android:text="Generate" />
+    </LinearLayout>
+
+
+<ListView
+    android:id="@+id/symptomListView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@id/footer_symptom_list"
+    android:layout_alignParentLeft="true">
+
+</ListView>
+
+</RelativeLayout>

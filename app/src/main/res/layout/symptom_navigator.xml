@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="#eefbf9">
+
+    <LinearLayout
+        android:id="@+id/footer"
+        style="@android:style/ButtonBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="@null"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_ViewList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/borderless_button"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:text="@string/viewlist" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="#2d5106" />
+
+        <Button
+            android:id="@+id/btn_Generate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:background="@drawable/borderless_button"
+            android:text="@string/generate" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/footer"
+        android:baselineAligned="false"
+        tools:context="com.dreamcode.healttracker.SymptomNavigator"
+        tools:ignore="MergeRootFrame" />
+
+</RelativeLayout>

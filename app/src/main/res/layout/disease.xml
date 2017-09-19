@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/lv_diseases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+    <Button
+        android:id="@+id/btn_nearbyHospitals"
+        android:layout_width="270dp"
+        android:layout_height="10dp"
+        android:layout_marginBottom="25dp"
+        android:layout_weight="0.20"
+        android:background="@drawable/hospital_btn"
+        android:text="View Consultants"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/btn_emergency"
+        android:layout_width="270dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="25dp"
+        android:layout_weight="0.20"
+        android:background="@drawable/emergency_btn"
+        android:text="Chat"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+</LinearLayout>

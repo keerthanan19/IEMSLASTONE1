@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_listview"
+    android:paddingBottom="8dp"
+    android:paddingTop="8dp" >
+
+    <TextView
+        android:id="@+id/consultant_list_item_string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/consultant_list_item_string"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="8dp"
+        android:textColor="@android:color/white"
+        android:text="Dr. Full Name"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/hospital_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/consultant_list_item_string"
+        android:paddingLeft="8dp"
+        android:text="Hospital Name" />
+
+    <TextView
+        android:id="@+id/seperator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/hospital_name"
+        android:textColor="@android:color/white"
+        android:layout_alignBottom="@+id/hospital_name"
+        android:layout_toRightOf="@+id/hospital_name"
+        android:text=" - " />
+
+    <TextView
+        android:id="@+id/hospital_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_alignBaseline="@+id/seperator"
+        android:layout_alignBottom="@+id/seperator"
+        android:layout_toRightOf="@+id/seperator"
+        android:text="0.48 Km" />
+
+    <TextView
+        android:id="@+id/doctor_schedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/hospital_name"
+        android:paddingLeft="8dp"
+        android:text="Sun: 10 - 11 AM, Mon: 5 - 6 PM"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button
+        android:id="@+id/btn_getDirection"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:paddingLeft="3dp"
+        android:background="@drawable/borderless_list_button"
+        android:paddingRight="8dp"
+        android:text="Direction" />
+
+</RelativeLayout>

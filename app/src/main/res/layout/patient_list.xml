@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginradial">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="patient List"
+        android:id="@+id/textView9"
+        android:background="#2a98ff" />
+    <ListView
+        android:id="@+id/patient_listView"
+        android:layout_height="347dp"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/textView9" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:id="@+id/button2"
+        android:layout_below="@+id/patient_listView"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+<PreferenceCategory android:title="Settings" >
+        <com.sliit.vaidhya.PasswordChangeDialog
+                  android:summary="Change you password"
+                  android:title="Change Password" />
+
+
+         <CheckBoxPreference
+                android:key="consultantPreference"
+                android:title="Consultant Preference"
+                android:summary="Prefer female consultants over male consultants" />
+        <ListPreference
+            android:title="Age Group"
+            android:key="listAge"
+            android:entries="@array/age_groups"
+            android:summary="Set the age group you belong to"
+            android:entryValues="@array/age_groups_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Emergency Contacts">
+        <EditTextPreference
+                android:title="Contact 1"
+                android:summary="Enter Emergency Number 1"
+                android:key="prefContact1"
+                android:inputType="phone"/>
+        <EditTextPreference
+                android:title="Contact 2"
+                android:summary="Enter Emergency Number 2"
+                android:key="prefContact2"
+                android:inputType="phone"/>
+        <EditTextPreference
+                android:title="Contact 3"
+                android:summary="Enter Emergency Number 3"
+                android:key="prefContact3"
+                android:inputType="phone"/>
+        <EditTextPreference
+                android:title="Contact 4"
+                android:summary="Enter Emergency Number 4"
+                android:key="prefContact4"
+                android:inputType="phone"/>
+        <EditTextPreference
+                android:title="Contact 5"
+                android:summary="Enter Emergency Number 5"
+                android:key="prefContact5"
+                android:inputType="phone"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/wallSearchControls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginRight="00dp"
+        android:background="@color/TransparentLightGray"
+        android:layout_marginTop="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <!-- Editext for Search -->
+        <SearchView
+            android:layout_width="270dp"
+            android:layout_height="55dp"
+            android:id="@+id/wallSearchView"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/searchbar"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            />
+
+        <android.support.v7.widget.AppCompatAutoCompleteTextView
+            android:layout_width="wrap_content"
+            android:hint="local business or service"
+            android:layout_height="wrap_content"
+            android:background="#6a6363"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/inputSearch"
+            android:textColor="@color/black" />
+        <!-- abc_background_cache_hint_selector_material_light -->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/search"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="31dp"
+            android:layout_marginEnd="31dp"
+            android:id="@+id/imageView"
+            android:layout_alignParentEnd="true"
+            android:adjustViewBounds="true" />
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

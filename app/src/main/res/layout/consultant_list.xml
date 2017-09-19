@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#3dcdd2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/consultant_details"
+        android:id="@+id/textView10"
+        android:layout_gravity="center_horizontal"
+        android:background="#51d23d"
+        android:autoText="false"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <ListView
+        android:id="@+id/consultantList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000f">
+    </ListView>
+
+</LinearLayout>

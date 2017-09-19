@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/skyblue"
+    android:weightSum="1">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Questions List"
+            android:id="@+id/textView9"
+            android:background="#51d23d"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:gravity="center" />
+        <ListView
+            android:id="@+id/listView"
+            android:layout_height="425dp"
+            android:layout_width="match_parent" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/footer_symptom_list"
+        style="@android:style/ButtonBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="#eefbf9"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/Generate"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:background="@drawable/green_btn_4"
+            android:text="Send"
+            android:textSize="30sp" />
+    </LinearLayout>
+</LinearLayout>
